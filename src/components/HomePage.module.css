@@ -1,0 +1,63 @@
+/* HomePage.module.css */
+
+.container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    color: #555;
+  }
+  
+  .header {
+    /* Add styles for the header as needed */
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .header h2 {
+    margin: 0;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  .welcomeMessage {
+    margin-top: 100px;
+    color: #333;
+  }
+  
+  .welcomeMessage h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcomeMessage p {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  

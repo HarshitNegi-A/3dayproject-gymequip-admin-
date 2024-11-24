@@ -1,0 +1,71 @@
+
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  /* Label styling */
+  .form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* Input field styling */
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Input field focus effect */
+  .form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .form button {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Additional button for closing the modal */
+  
+  .form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #555;
+    resize: vertical;  /* Allow vertical resizing */
+    min-height: 150px;  /* Set a minimum height */
+  }
+  
+  /* Focus effect for textarea */
+  form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }

@@ -1,0 +1,27 @@
+.header {
+    background-color: #333; 
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .header a {
+    color: #f0f0f0; /* Light font color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Space between links */
+    font-size: 18px; /* Font size */
+    font-weight: 600; /* Slightly bold */
+    transition: color 0.3s ease-in-out; /* Smooth hover transition */
+  }
+  
+  /* Link hover effect */
+  .header a:hover {
+    color: #ff6347; /* Change color on hover (tomato red) */
+  }
+  
+  /* Optional: Add responsiveness */
+  @media (max-width: 600px) {
+    header a {
+      font-size: 16px; /* Smaller font size on mobile */
+      margin: 0 10px; /* Adjust space between links */
+    }
+  }
